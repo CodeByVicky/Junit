@@ -3,9 +3,11 @@ import Pojo.Student;
 
 public interface StudentCrud {
 
-	void Add(Student s) throws Exception;
-	void Display(Student s);
-	void Remove(Student s)throws Exception;
-	void Search(Student s)throws Exception;
-	void DisplayCourse(Student s);
+	void add(Student s) throws Exception;
+	void display(Student s);
+	void remove(Student s)throws Exception;
+	void search(Student s)throws Exception;
+	void displayCourse(Student s);
+
+	void update(Student s)throws Exception;
 }

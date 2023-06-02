@@ -4,7 +4,7 @@ import java.util.Comparator;
 
 import Pojo.Student;
 
-public class Asen implements Comparator <Student>{
+public class Asen_Comparator implements Comparator <Student>{
 
 	@Override
 	public int compare(Student o1, Student o2) {
